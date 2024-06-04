@@ -16,7 +16,7 @@ export default function Nav() {
   }, []);
  
   const navList = (
-    <ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 bg-black">
       <Typography as="li" variant="small" color="blue-gray" className="p-1 font-normal">
         <a href="#" className="flex items-center text-white">
           Remeras
@@ -79,7 +79,7 @@ export default function Nav() {
  
   return (
     <header className=" w-full ">
-      <Navbar className="bg-black fixed top-0 z-10 max-w-full h-[65px] rounded-none px-5 py-1 lg:px-8 lg:py-4">
+      <Navbar className="bg-black fixed top-0 z-10 max-w-full h-[65px] rounded-none px-5 py-1 z-5">
 
 
         <div className="flex items-center justify-between text-blue-gray-900">

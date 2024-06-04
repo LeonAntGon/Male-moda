@@ -1,4 +1,4 @@
-import bg from '@/public/bg-hero.jpg';
+import bg from '@/public/bg-hero-2.jpg';
 import { Saira_Stencil_One } from 'next/font/google';
 import '../styles/strokes.css'
 
