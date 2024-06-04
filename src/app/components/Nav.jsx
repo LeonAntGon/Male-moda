@@ -78,7 +78,7 @@ export default function Nav() {
   );
  
   return (
-    <header className=" max-h-[768px] w-full ">
+    <header className=" w-full ">
       <Navbar className="bg-black fixed top-0 z-10 h-max max-w-full rounded-none px-5 py-1 lg:px-8 lg:py-4">
 
 
