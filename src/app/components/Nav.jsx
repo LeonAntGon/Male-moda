@@ -79,17 +79,16 @@ export default function Nav() {
  
   return (
     <header className=" w-full ">
-      <Navbar className="bg-black fixed top-0 z-10 h-max max-w-full rounded-none px-5 py-1 lg:px-8 lg:py-4">
+      <Navbar className="bg-black fixed top-0 z-10 max-w-full h-[65px] rounded-none px-5 py-1 lg:px-8 lg:py-4">
 
 
         <div className="flex items-center justify-between text-blue-gray-900">
-          <Typography
-            as="a" href="#" className="mx-auto lg:ml-[40px] text-center align-center cursor-pointer py-none font-medium">
-              <div>
-              <Image src={logo} width={100} height={80} alt="logo"/>
+
+        <div className="h-[65px] mx-auto">
+                  <Image src={logo} className="h-[60px] w-[120px]"  alt="logo"/>
               </div>
             
-          </Typography>
+      
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
             <div className="flex items-center gap-x-1">
