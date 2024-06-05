@@ -44,45 +44,63 @@ export default function Hero(){
                     <h2 className='text-gray-100 text-center text-[16px] font-bold '>CATÁLOGO</h2>
                 </div>
 
-                <div className='container mt-4'>
+                <div className='container mt-4 mx-auto'>
                 
                     <Link href="/remeras">
                         <div className="cont1"
                         style={{ backgroundImage: `url(${remera.src})`}}>
-                        <h4 className={saira.className}>REMERAS & TOP</h4>
+                            <section className='imgcontainer h-[60px] rounded-lg'>
+                            <h6 className={` text-center text-[30px] p-2  ${saira.className}`}>REMERAS & TOP</h6>
+                            </section>
+                        
                         </div>
                     </Link>
                     
                     <Link href="/pantalonesyjeans">
                     <div className="cont2"
                     style={{ backgroundImage: `url(${pants.src})`}}>
-                        <h4 className={saira.className}>PANTALONES & JEANS</h4>
+                        <section className='imgcontainer h-[60px] rounded-lg'>
+                            <h6 className={` text-center text-[30px] p-2  ${saira.className}`}>PANTALONES & JEANS</h6>
+                        </section>
+                        
                     </div>
                     </Link>
 
                     <Link href="/camperas">
                     <div className="cont3"
                     style={{ backgroundImage: `url(${campera.src})`}}>
-                        <h4 className={saira.className}>CAMPERAS</h4>
+                        <section className='imgcontainer h-[60px] rounded-lg'>
+                            <h6 className={` text-center text-[30px] p-2  ${saira.className}`}>CAMPERAS</h6>
+                        </section>
+                        
                     </div>
                     </Link>
 
                     <Link href="/sweaters">
                     <div className="cont4"
                     style={{ backgroundImage: `url(${sweater.src})`}}>
-                        <h4 className={saira.className}>SWEATERS</h4>
+                        <section className='imgcontainer h-[60px] rounded-lg'>
+                            <h6 className={` text-center text-[30px] p-2  ${saira.className}`}>SWEATERS</h6>
+                        </section>
+                        
                     </div>
                     </Link>
                     <Link href="/conjuntos">
                     <div className="cont5"
                     style={{ backgroundImage: `url(${dress.src})`}}>
-                        <h4 className={saira.className}>VESTIDOS</h4>
+                        <section className='imgcontainer h-[60px] rounded-lg'>
+                        <h6 className={` text-center text-[30px] p-2  ${saira.className}`}>VESTIDOS</h6>
+                        </section>
+                        
                     </div>
                     </Link>
                     <Link href="/vestidos">
                     <div className="cont6"
                     style={{ backgroundImage: `url(${shorts.src})`}}>
-                        <h4 className={saira.className}>POLLERAS & SHORTS</h4>
+                        <section className='imgcontainer h-[60px] rounded-lg'>
+                            <h6 className={` text-center text-[30px] p-2  ${saira.className}`}>POLLERAS & SHORTS</h6>
+                        </section>
+                        
                     </div>
                     </Link>
             </div>
