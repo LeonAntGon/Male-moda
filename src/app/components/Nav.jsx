@@ -16,8 +16,8 @@ export default function Nav() {
   }, []);
  
   const navList = (
-    <ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 bg-black">
-      <Typography as="li" variant="small" color="blue-gray" className="p-1 font-normal">
+    <ul className="flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 bg-black">
+      <Typography as="li" variant="small" color="blue-gray" className="font-normal">
         <a href="#" className="flex items-center text-white">
           Remeras
         </a>
@@ -79,13 +79,13 @@ export default function Nav() {
  
   return (
     <header className=" w-full ">
-      <Navbar className="bg-black fixed top-0 z-10 max-w-full h-[65px] rounded-none px-5 py-1 z-5">
+      <Navbar className="bg-black fixed top-0 z-10 max-w-full h-[65px] rounded-none   z-5">
 
 
         <div className="flex items-center justify-between text-blue-gray-900">
 
         <div className="h-[65px] mx-auto">
-                  <Image src={logo} className="h-[60px] w-[120px]"  alt="logo"/>
+                  <Image src={logo} className="h-[60px] w-[120px] z-10"  alt="logo"/>
               </div>
             
       
@@ -96,7 +96,7 @@ export default function Nav() {
             </div>
             <IconButton
               variant="text"
-              className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+              className="mr-4 ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
               ripple={false}
               onClick={() => setOpenNav(!openNav)}
             >
@@ -116,7 +116,7 @@ export default function Nav() {
                   />
                 </svg>
               ) : (                
-                <svg className="rotate-180  invert" width="30px" height="30px" stroke-width="1.2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M3 5H11" stroke="#000000" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 12H16" stroke="#000000" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 19H21" stroke="#000000" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                <svg className="rotate-180 z-10 invert" width="30px" height="30px" stroke-width="1.2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M3 5H11" stroke="#000000" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 12H16" stroke="#000000" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 19H21" stroke="#000000" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
               )}
             </IconButton>
           </div>
