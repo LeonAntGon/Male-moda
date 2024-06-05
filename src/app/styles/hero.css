@@ -24,7 +24,7 @@ h1 {
   align-items: center;
 }
 .cont1{
-  background-image: url(/sections/remera.jpg);
+  background-image: url(/public/sections/remera.jpg);
   background-size: cover;
   background-position:center;
 }
