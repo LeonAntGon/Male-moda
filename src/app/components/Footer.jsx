@@ -1,6 +1,6 @@
 export default function Footer(){
     return(
-    <footer className="mt-5">
+    <footer className="mt-[80px]">
         
         <div className="flex">
         <div class="w-full h-[0.5px] Altura de la línea bg-gray-400 my-[12px]"></div>

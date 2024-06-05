@@ -58,8 +58,8 @@ export default function Hero(){
                     <Link href="/pages/pantalonesyjeans">
                     <div className="cont2"
                     style={{ backgroundImage: `url(${pants.src})`}}>
-                        <section className='imgcontainer h-[60px] rounded-lg'>
-                            <h6 className={` text-center text-[30px] p-2  ${saira.className}`}>PANTALONES & JEANS</h6>
+                        <section className='imgcontainer h-[110px] rounded-lg'>
+                            <h6 className={` text-center text-[30px] p-2  ${saira.className}`}>PANTALONES <br></br>& JEANS</h6>
                         </section>
                         
                     </div>
@@ -81,7 +81,6 @@ export default function Hero(){
                         <section className='imgcontainer h-[60px] rounded-lg'>
                             <h6 className={` text-center text-[30px] p-2  ${saira.className}`}>SWEATERS</h6>
                         </section>
-                        
                     </div>
                     </Link>
                     <Link href="/pages/conjuntos">
@@ -96,8 +95,8 @@ export default function Hero(){
                     <Link href="/pages/vestidos">
                     <div className="cont6"
                     style={{ backgroundImage: `url(${shorts.src})`}}>
-                        <section className='imgcontainer h-[60px] rounded-lg'>
-                            <h6 className={` text-center text-[30px] p-2  ${saira.className}`}>POLLERAS & SHORTS</h6>
+                        <section className='imgcontainer h-[110px] rounded-lg'>
+                            <h6 className={` text-center text-[30px] p-2  ${saira.className}`}>POLLERAS <br></br>& SHORTS</h6>
                         </section>
                         
                     </div>

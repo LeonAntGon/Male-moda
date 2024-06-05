@@ -3,14 +3,14 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Whatsup from "./components/Whatsup";
-import Group from "./components/Group";
+import Info from "./components/Info";
 
 export default function Home() {
   return (
     <>
       <Nav/>
       <Hero/>
-      <Group />
+      <Info />
       <Whatsup/>
       <Footer/>   
     </>

@@ -8,16 +8,16 @@ const saira = Saira_Condensed({
     subsets:['latin'],
   })
 
-export default function Group(){
+export default function Info(){
     return(
-        <section className="my-[60px] ">
+        <section className="mt-[80px] ">
 
-            <div className="text-center item-center">
+            <section className="text-center item-center">
                 <h4 className="text-center font-bold">GRUPO DE WHATSAPP</h4>
                 <div className="inline-block relative top-[-14px] w-3 h-1 bg-gray-900 rounded-full"></div>
-            </div>
+            </section>
 
-            <div className="h-[400px] flex text-center justify-center items-center flex-col"
+            <div className="h-[400px] flex text-center justify-center items-center flex-col shadow-gray-400 "
             style={{
                 backgroundImage: `url(${bggroup.src})`,
                 backgroundSize: 'cover',
@@ -54,6 +54,24 @@ export default function Group(){
                 </div>
                 
             </div>
+
+            <section className="mt-[45px] mb-[30px]">
+                <h3 className="text-center font-bold mt-6">Visitanos</h3>
+                <div className="mt-[40px] h-[300px] flex justify-center items-center bg-black">
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3561.940584704566!2d-65.20843282307773!3d-26.778163807552176!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d007f5e7baf%3A0x253c52d52d94a146!2sMale%20Moda!5e0!3m2!1sen!2sar!4v1717619705023!5m2!1sen!2sar"
+                title="Mapa"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="w-[90%] h-[95%]"
+                ></iframe>
+                </div>
+                <div className="text-center mt-6">
+                    <p>Las Talitas calle 6 nº</p>
+                    <p>Tucumán | Argentina</p></div>
+                
+                    
+            </section>
         </section>
     )
 }
