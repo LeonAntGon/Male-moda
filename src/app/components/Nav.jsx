@@ -1,6 +1,5 @@
 "use client"
 import React from "react";
-import { Menu } from "@/public/barmenu.svg";
 import { Navbar, MobileNav,Typography,Button,IconButton,Card,} from "@material-tailwind/react";
 import logo from '@/public/logo.png';
 import Image from "next/image";
@@ -16,13 +15,14 @@ export default function Nav() {
   }, []);
  
   const navList = (
-    <ul className="flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 bg-black">
+    <ul className="flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row items-center lg:gap-6 bg-black tb-2">
+      <hr className="border-t-[1px] border-gray-300 h-0.5 w-full my-[2px]" />
       <Typography as="li" variant="small" color="blue-gray" className="font-normal">
         <a href="#" className="flex items-center text-white">
           Remeras
         </a>
       </Typography>
-      
+      <hr className="border-t-[1px] border-gray-300 h-0.5 w-full my-[2px]" />
       <Typography
         as="li"
         variant="small"
@@ -32,7 +32,9 @@ export default function Nav() {
         <a href="#" className="flex items-center text-white">
           Pantalones & Jeans
         </a>
+        
       </Typography>
+      <hr className="border-t-[1px] border-gray-300 h-0.5 w-full my-[2px]" />
       <Typography
         as="li"
         variant="small"
@@ -43,6 +45,7 @@ export default function Nav() {
           Camperas
         </a>
       </Typography>
+      <hr className="border-t-[1px] border-gray-300 h-0.5 w-full my-[2px]" />
       <Typography
         as="li"
         variant="small"
@@ -53,6 +56,7 @@ export default function Nav() {
           Sweaters
         </a>
       </Typography>
+      <hr className="border-t-[1px] border-gray-300 h-0.5 w-full my-[2px]" />
       <Typography
         as="li"
         variant="small"
@@ -63,7 +67,7 @@ export default function Nav() {
         Conjuntos
         </a>
       </Typography>
-      
+      <hr className="border-t-[1px] border-gray-300 h-0.5 w-full my-[2px]" />
       <Typography
         as="li"
         variant="small"
@@ -74,6 +78,7 @@ export default function Nav() {
           Vestidos
         </a>
       </Typography>
+      <hr className="border-t-[1px] border-gray-300 h-0.5 w-full my-[2px]" />
     </ul>
   );
  
@@ -82,14 +87,17 @@ export default function Nav() {
       <Navbar className="bg-black fixed top-0 z-10 max-w-full h-[65px] rounded-none   z-5">
 
 
-        <div className="flex items-center justify-between text-blue-gray-900">
+        <div className="grid grid-template-column[auto auto auto] text-blue-gray-900"
+         style={{
+          display: 'grid',
+          gridTemplateColumns: '1fr 1fr 1fr',
+      }}>            
+          <div></div>
+          <div className="h-[65px] flex items-center justify-center">
+            <Image src={logo} className="h-[60px] w-[120px] z-10"  alt="logo"/>
+          </div>
 
-        <div className="h-[65px] mx-auto">
-                  <Image src={logo} className="h-[60px] w-[120px] z-10"  alt="logo"/>
-              </div>
-            
-      
-          <div className="flex items-center gap-4">
+          <div className="flex items-center justify-end gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
             <div className="flex items-center gap-x-1">
               
@@ -116,10 +124,11 @@ export default function Nav() {
                   />
                 </svg>
               ) : (                
-                <svg className="rotate-180 z-10 invert" width="30px" height="30px" stroke-width="1.2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M3 5H11" stroke="#000000" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 12H16" stroke="#000000" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 19H21" stroke="#000000" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                <svg width="30px" height="30px" stroke-width="1.2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M3 5H21" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 12H21" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 19H21" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
               )}
             </IconButton>
           </div>
+          
         </div>
         <MobileNav open={openNav}>
           {navList}
