@@ -10,7 +10,7 @@ const saira = Saira_Condensed({
 
 export default function Info(){
     return(
-        <section className="mt-[80px] ">
+        <section className="mt-[80px] max-w-[640px] mx-auto">
 
             <section className="text-center item-center">
                 <h4 className="text-center font-bold">GRUPO DE WHATSAPP</h4>

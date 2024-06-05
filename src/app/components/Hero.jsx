@@ -43,7 +43,7 @@ export default function Hero(){
                     <h2 className='text-gray-100 text-center text-[16px] font-bold '>CATÁLOGO</h2>
                 </div>
 
-                <div className='container mt-4 mx-auto'>
+                <div className='container mt-4 m-auto'>
                 
                     <Link href="/pages/remeras">
                         <div className="cont1"
