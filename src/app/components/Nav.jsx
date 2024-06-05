@@ -3,6 +3,7 @@ import React from "react";
 import { Navbar, MobileNav,Typography,Button,IconButton,Card,} from "@material-tailwind/react";
 import logo from '@/public/logo.png';
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Nav() {
   const [openNav, setOpenNav] = React.useState(false);
@@ -18,9 +19,11 @@ export default function Nav() {
     <ul className="flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row items-center lg:gap-6 bg-black tb-2">
       <hr className="border-t-[1px] border-gray-300 h-0.5 w-full my-[2px]" />
       <Typography as="li" variant="small" color="blue-gray" className="font-normal">
-        <a href="#" className="flex items-center text-white">
-          Remeras
-        </a>
+       
+        <Link href="/pages/remeras" className="flex items-center text-white">
+          REMERAS
+        </Link>
+
       </Typography>
       <hr className="border-t-[1px] border-gray-300 h-0.5 w-full my-[2px]" />
       <Typography
@@ -29,9 +32,9 @@ export default function Nav() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center text-white">
-          Pantalones & Jeans
-        </a>
+        <Link href="/pages/pantalonesyjeans" className="flex items-center text-white">
+          PANTALONES & JEANS
+        </Link>
         
       </Typography>
       <hr className="border-t-[1px] border-gray-300 h-0.5 w-full my-[2px]" />
@@ -41,9 +44,10 @@ export default function Nav() {
         color="blue-gray"
         className="p-1 font-normal "
       >
-        <a href="#" className="flex items-center text-white">
-          Camperas
-        </a>
+        <Link href="/pages/camperas" className="flex items-center text-white">
+          CAMPERAS
+        </Link>
+
       </Typography>
       <hr className="border-t-[1px] border-gray-300 h-0.5 w-full my-[2px]" />
       <Typography
@@ -52,9 +56,9 @@ export default function Nav() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center text-white">
-          Sweaters
-        </a>
+        <Link href="/pages/sweaters" className="flex items-center text-white">
+          SWEATERS
+        </Link>
       </Typography>
       <hr className="border-t-[1px] border-gray-300 h-0.5 w-full my-[2px]" />
       <Typography
@@ -63,9 +67,9 @@ export default function Nav() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center text-white">
-        Conjuntos
-        </a>
+        <Link href="/pages/vestidos" className="flex items-center text-white">
+        VESTIDOS
+        </Link>
       </Typography>
       <hr className="border-t-[1px] border-gray-300 h-0.5 w-full my-[2px]" />
       <Typography
@@ -74,9 +78,9 @@ export default function Nav() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center text-white">
-          Vestidos
-        </a>
+        <Link href="/pollerasyshorts" className="flex items-center text-white">
+          POLLERAS & SHORTS
+        </Link>
       </Typography>
       <hr className="border-t-[1px] border-gray-300 h-0.5 w-full my-[2px]" />
     </ul>
