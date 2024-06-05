@@ -18,30 +18,30 @@ h1 {
   max-height: 500px;
   background-size: cover;
   background-position:center;
-  filter:brightness(65%);
+  filter:brightness(70%);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .cont1{
-  background-image: url(/public/sections/remera.jpg);
+
   background-size: cover;
   background-position:center;
 }
 .cont2{
-  background-image: url(/sections/jean.jpg);
+  
   
 }
 .cont3{
-  background-image: url(/sections/camperas.jpg);
+  
 }
 .cont4{
-  background-image: url(/sections/sweater.jpg);
+  
 }
 .cont5{
-  background-image: url(/sections/vestidos.jpg);
+  
 }
 
 .cont6{
-  background-image: url(/sections/pollera.jpg);
+  
 }
