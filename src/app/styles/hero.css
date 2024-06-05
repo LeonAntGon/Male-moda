@@ -1,0 +1,47 @@
+h1 {
+    color: transparent;
+    -webkit-text-stroke: 0.5px black;
+    background-clip: text;
+  }
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 5px 4px;
+    width: 100%;
+}
+
+.container div{
+  min-width: 100px;
+  max-width: 550px;
+  min-height: 300px;
+  max-height: 500px;
+  background-size: cover;
+  background-position:center;
+  filter:brightness(65%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cont1{
+  background-image: url(/sections/remera.jpg);
+  background-size: cover;
+  background-position:center;
+}
+.cont2{
+  background-image: url(/sections/jean.jpg);
+  
+}
+.cont3{
+  background-image: url(/sections/camperas.jpg);
+}
+.cont4{
+  background-image: url(/sections/sweater.jpg)
+}
+.cont5{
+  background-image: url(/sections/vestidos.jpg)
+}
+
+.cont6{
+  background-image: url(/sections/pollera.jpg)
+}

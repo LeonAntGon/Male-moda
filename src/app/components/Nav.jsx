@@ -83,22 +83,23 @@ export default function Nav() {
   );
  
   return (
-    <header className=" w-full ">
-      <Navbar className="bg-black fixed top-0 z-10 max-w-full h-[65px] rounded-none   z-5">
+    <header className=" w-full z-20">
+      <Navbar className="bg-black fixed top-0 z-10 max-w-full h-[65px] rounded-none ">
 
 
-        <div className="grid grid-template-column[auto auto auto] text-blue-gray-900"
+        <div className="grid lg:grid-cols-2 lg:grid-template-columns[auto-auto] text-blue-gray-900"
          style={{
           display: 'grid',
           gridTemplateColumns: '1fr 1fr 1fr',
       }}>            
-          <div></div>
+          <div className="block lg:hidden "></div>
           <div className="h-[65px] flex items-center justify-center">
             <Image src={logo} className="h-[60px] w-[120px] z-10"  alt="logo"/>
           </div>
-
+          
+          <div className="hidden lg:block"></div>
           <div className="flex items-center justify-end gap-4">
-            <div className="mr-4 hidden lg:block">{navList}</div>
+            <div className="mr-4 hidden lg:block text-center">{navList}</div>
             <div className="flex items-center gap-x-1">
               
             </div>
