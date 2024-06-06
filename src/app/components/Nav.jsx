@@ -31,9 +31,27 @@ export default function Nav() {
       <hr className="border-t-[1px] border-gray-300 h-0.5 w-full my-[2px]" />
       <Typography as="li" variant="small" color="blue-gray" className="font-normal">
        
-        <Link href="/pages/remeras" 
+        <Link href="/pages/remerasmangascortas" 
         className="flex items-center text-white hover:text-rose-300 hover:font-semibold">
-          REMERAS
+          REMERAS MANGAS CORTAS
+        </Link>
+
+      </Typography>
+      <hr className="border-t-[1px] border-gray-300 h-0.5 w-full my-[2px]" />
+      <Typography as="li" variant="small" color="blue-gray" className="font-normal">
+       
+        <Link href="/pages/remerasmangascortas" 
+        className="flex items-center text-white hover:text-rose-300 hover:font-semibold">
+          REMERAS MANGAS LARGAS
+        </Link>
+
+      </Typography>
+      <hr className="border-t-[1px] border-gray-300 h-0.5 w-full my-[2px]" />
+      <Typography as="li" variant="small" color="blue-gray" className="font-normal">
+       
+        <Link href="/pages/remerasmangascortas" 
+        className="flex items-center text-white hover:text-rose-300 hover:font-semibold">
+          TOPS
         </Link>
 
       </Typography>

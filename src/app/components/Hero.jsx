@@ -2,7 +2,9 @@ import bg from '@/public/bg-hero-2.jpg';
 import { Saira_Stencil_One, Saira_Condensed } from 'next/font/google';
 import '../styles/hero.css'
 import Link from 'next/link'
-import remera from '@/public/sections/remera.jpg';
+import tshirt from '@/public/sections/mangacorta.jpg';
+import shirt from '@/public/sections/remeramangalarga.jpg';
+import top from '@/public/sections/top.jpg';
 import pants from '@/public/sections/jean.jpg';
 import campera from '@/public/sections/camperas.jpg';
 import sweater from '@/public/sections/sweater.jpg';
@@ -17,7 +19,7 @@ const saira = Saira_Condensed({
 const sairastn = Saira_Stencil_One({
         weight: "400",
         subsets:['latin'],
-    })
+})
 
 
 export default function Hero(){
@@ -45,11 +47,31 @@ export default function Hero(){
 
                 <div className='container mt-4 m-auto'>
                 
+                    <Link href="/pages/remerasmangascortas">
+                        <div className="cont1"
+                        style={{ backgroundImage: `url(${tshirt.src})`}}>
+                            <section className='imgcontainer h-[110px] rounded-lg'>
+                            <h6 className={` text-center text-[30px] p-2  ${saira.className}`}>REMERAS <br></br> MANGAS CORTAS</h6>
+                            </section>
+                        
+                        </div>
+                    </Link>
+
                     <Link href="/pages/remeras">
                         <div className="cont1"
-                        style={{ backgroundImage: `url(${remera.src})`}}>
+                        style={{ backgroundImage: `url(${shirt.src})`}}>
+                            <section className='imgcontainer h-[110px] rounded-lg'>
+                            <h6 className={` text-center text-[30px] p-2  ${saira.className}`}>REMERAS <br></br> MANGAS LARGAS</h6>
+                            </section>
+                        
+                        </div>
+                    </Link>
+
+                    <Link href="/pages/remeras">
+                        <div className="cont1"
+                        style={{ backgroundImage: `url(${top.src})`}}>
                             <section className='imgcontainer h-[60px] rounded-lg'>
-                            <h6 className={` text-center text-[30px] p-2  ${saira.className}`}>REMERAS & TOP</h6>
+                            <h6 className={` text-center text-[30px] p-2  ${saira.className}`}>TOPS</h6>
                             </section>
                         
                         </div>
