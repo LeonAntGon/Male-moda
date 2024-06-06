@@ -114,7 +114,7 @@ export default function Hero(){
                         
                     </div>
                     </Link>
-                    <Link href="/pages/vestidos">
+                    <Link href="/pages/pollerasyshorts">
                     <div className="cont6"
                     style={{ backgroundImage: `url(${shorts.src})`}}>
                         <section className='imgcontainer h-[110px] rounded-lg'>
