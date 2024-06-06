@@ -9,5 +9,5 @@ const nextConfig = {
     // otras configuraciones...
   };
   
-  module.exports = nextConfig;
+  export default myConfig;
   
