@@ -40,7 +40,7 @@ export default function Nav() {
       <hr className="border-t-[1px] border-gray-300 h-0.5 w-full my-[2px]" />
       <Typography as="li" variant="small" color="blue-gray" className="font-normal">
        
-        <Link href="/pages/remerasmangascortas" 
+        <Link href="/pages/remerasmangaslargas" 
         className="flex items-center text-white hover:text-rose-300 hover:font-semibold">
           REMERAS MANGAS LARGAS
         </Link>
@@ -112,7 +112,7 @@ export default function Nav() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link href="/pollerasyshorts" 
+        <Link href="/pages/pollerasyshorts" 
         className="flex items-center text-white hover:text-rose-300 hover:font-semibold">
           POLLERAS & SHORTS
         </Link>
@@ -132,9 +132,13 @@ export default function Nav() {
           gridTemplateColumns: '1fr 1fr 1fr',
       }}>            
           <div className="block lg:hidden "></div>
-          <div className="h-[65px] flex items-center justify-center">
-            <Image src={logo} className="h-[60px] w-[120px] z-10"  alt="logo"/>
-          </div>
+
+          <Link href="/">
+              <div className="h-[65px] flex items-center justify-center">
+                 <Image src={logo} className="h-[60px] w-[120px] z-10"  alt="logo"/>
+              </div>
+          </Link>
+          
           
           <div className="hidden lg:block"></div>
           <div className="flex items-center justify-end gap-4">

@@ -13,7 +13,7 @@ export default function Tops(){
         <section className="flex flex-wrap justify-center gap-2 gap-y-[50px] mx-[10px] h-auto mt-6">
                 {products.map((product) => (
                     <div className='inline-block min-w-[100px] min-h-[120px] max-w-[160px] ' key={product.id}>
-                         <Image
+                         <img
                           className="w-full h-full rounded-md"
                           src={product.image.src}
                           alt="prenda"/>
