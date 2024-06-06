@@ -14,13 +14,25 @@ export default function Nav() {
       () => window.innerWidth >= 960 && setOpenNav(false),
     );
   }, []);
+
+  const toggleDivVisibility = () => {
+    setOpenNav(!openNav);   
+  };
  
   const navList = (
-    <ul className="flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row items-center lg:gap-6 bg-black tb-2">
+    <ul className={`flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row items-center lg:gap-6 bg-black tb-2 ${openNav ? 'block' : 'hidden'}`}>
+       <hr className="border-t-[1px] border-gray-300 h-0.5 w-full my-[2px]" />
+      <Typography as="li" variant="small" color="blue-gray" className="font-normal">
+       
+        <Link href="/" className="flex items-center text-white hover:text-rose-300">
+          INICIO
+        </Link>
+      </Typography>
       <hr className="border-t-[1px] border-gray-300 h-0.5 w-full my-[2px]" />
       <Typography as="li" variant="small" color="blue-gray" className="font-normal">
        
-        <Link href="/pages/remeras" className="flex items-center text-white">
+        <Link href="/pages/remeras" 
+        className="flex items-center text-white hover:text-rose-300 hover:font-semibold">
           REMERAS
         </Link>
 
@@ -32,7 +44,8 @@ export default function Nav() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link href="/pages/pantalonesyjeans" className="flex items-center text-white">
+        <Link href="/pages/pantalonesyjeans" 
+        className="flex items-center text-white hover:text-rose-300 hover:font-semibold">
           PANTALONES & JEANS
         </Link>
         
@@ -44,7 +57,8 @@ export default function Nav() {
         color="blue-gray"
         className="p-1 font-normal "
       >
-        <Link href="/pages/camperas" className="flex items-center text-white">
+        <Link href="/pages/camperas" 
+        className="flex items-center text-white hover:text-rose-300 hover:font-semibold">
           CAMPERAS
         </Link>
 
@@ -56,7 +70,8 @@ export default function Nav() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link href="/pages/sweaters" className="flex items-center text-white">
+        <Link href="/pages/sweaters" 
+        className="flex items-center text-white hover:text-rose-300 hover:font-semibold">
           SWEATERS
         </Link>
       </Typography>
@@ -67,7 +82,8 @@ export default function Nav() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link href="/pages/vestidos" className="flex items-center text-white">
+        <Link href="/pages/vestidos" 
+        className="flex items-center text-white hover:text-rose-300 hover:font-semibold">
         VESTIDOS
         </Link>
       </Typography>
@@ -78,7 +94,8 @@ export default function Nav() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link href="/pollerasyshorts" className="flex items-center text-white">
+        <Link href="/pollerasyshorts" 
+        className="flex items-center text-white hover:text-rose-300 hover:font-semibold">
           POLLERAS & SHORTS
         </Link>
       </Typography>

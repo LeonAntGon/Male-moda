@@ -76,14 +76,14 @@ export default function Hero(){
                     </Link>
 
                     <Link href="/pages/sweaters">
-                    <div className="cont4"
+                    <div className="cont4 focus:"
                     style={{ backgroundImage: `url(${sweater.src})`}}>
                         <section className='imgcontainer h-[60px] rounded-lg'>
                             <h6 className={` text-center text-[30px] p-2  ${saira.className}`}>SWEATERS</h6>
                         </section>
                     </div>
                     </Link>
-                    <Link href="/pages/conjuntos">
+                    <Link href="/pages/vestidos">
                     <div className="cont5"
                     style={{ backgroundImage: `url(${dress.src})`}}>
                         <section className='imgcontainer h-[60px] rounded-lg'>
