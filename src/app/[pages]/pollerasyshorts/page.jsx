@@ -1,8 +1,7 @@
 import Footer from "../../components/Footer"
 import Nav from "../../components/Nav"
-import Pagestitles from "../../components/Pagestitles"
-import { Image } from "@nextui-org/react";
 import Pagestitles from "@/src/app/components/Pagestitles";
+import { Image } from "@nextui-org/react";
 
 export default function Pollerasyshorts(){
     return(
