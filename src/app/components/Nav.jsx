@@ -49,7 +49,7 @@ export default function Nav() {
       <hr className="border-t-[1px] border-gray-300 h-0.5 w-full my-[2px]" />
       <Typography as="li" variant="small" color="blue-gray" className="font-normal">
        
-        <Link href="/pages/remerasmangascortas" 
+        <Link href="/pages/tops" 
         className="flex items-center text-white hover:text-rose-300 hover:font-semibold">
           TOPS
         </Link>
@@ -122,7 +122,7 @@ export default function Nav() {
   );
  
   return (
-    <header className=" w-full z-20">
+    <header className=" w-full z-50">
       <Navbar className="bg-black fixed top-0 z-10 max-w-full h-[65px] rounded-none ">
 
 

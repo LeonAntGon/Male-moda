@@ -4,7 +4,7 @@ import Pagestitles from "../../components/Pagestitles";
 import { products } from "./data";
 import { Image } from "@nextui-org/react";
 
-export default function Vestidos(){
+export default function Tops(){
     return(
         <>
         <Nav/>
