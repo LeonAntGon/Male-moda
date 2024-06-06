@@ -6,7 +6,7 @@ export default function Pollerasyshorts(){
     return(
         <>
         <Nav/>
-        <Pagestitles/>
+        <Pagestitles text="POLLERAS Y SHORTS"/>
         <Footer/>
         </>
     )
