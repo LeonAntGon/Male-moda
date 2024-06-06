@@ -6,7 +6,7 @@ export default function Vestidos(){
     return(
         <>
         <Nav/>
-        <Pagestitles text="VESTIDOS"/>
+        <Pagestitles text="TOPS"/>
         <Footer/>
         </>
     )

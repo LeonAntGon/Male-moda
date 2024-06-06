@@ -35,7 +35,7 @@ export default function Hero(){
 >
 
                 <div className='w-full h-full flex items-center justify-center '>
-                <h1 className={` text-center text-[24px] text-gray-200 text-shadow ${sairastn.className}`}>INDUMENTARIA FEMENINA</h1>
+                <h1 className={`  text-center text-[24px] text-gray-200 text-shadow ${sairastn.className}`}>INDUMENTARIA FEMENINA</h1>
                 </div>
                 
             </div>
@@ -57,7 +57,7 @@ export default function Hero(){
                         </div>
                     </Link>
 
-                    <Link href="/pages/remeras">
+                    <Link href="/pages/remerasmangaslargas">
                         <div className="cont1"
                         style={{ backgroundImage: `url(${shirt.src})`}}>
                             <section className='imgcontainer h-[110px] rounded-lg'>
@@ -67,7 +67,7 @@ export default function Hero(){
                         </div>
                     </Link>
 
-                    <Link href="/pages/remeras">
+                    <Link href="/pages/tops">
                         <div className="cont1"
                         style={{ backgroundImage: `url(${top.src})`}}>
                             <section className='imgcontainer h-[60px] rounded-lg'>
