@@ -1,4 +1,13 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+// next.config.js
 
-export default nextConfig;
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+    reactStrictMode: true,
+    images: {
+      unoptimized: true, // Añade esto si estás usando imágenes
+    },
+    // otras configuraciones...
+  };
+  
+  module.exports = nextConfig;
+  
