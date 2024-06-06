@@ -13,38 +13,38 @@ export const products = [
     {
         id: 1,
         image: whiteangel1,
-        price: "",
+        price: "$9200",
     },
     {
         id: 2,
         image: whiteangel2,
-        price: "",
+        price: "$9200",
     },
     {
         id: 3,
         image: marronclaro,
-        price: "",
+        price: "$6200",
     },
     {
         id: 4,
         image: black,
-        price: "",
+        price: "$6300",
     },
     {
         id: 5,
         image: puma,
-        price: "",
+        price: "$6900",
     },{
         id: 6,
         image: rojorayas ,
-        price: "",
+        price: "$5300",
     },{
         id: 7,
         image: verde,
-        price: "",
+        price: "$4900",
     },{
         id: 8,
         image: verderayas,
-        price: "",
+        price: "5300",
     }
 ]

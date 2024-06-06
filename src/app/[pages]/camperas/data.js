@@ -8,17 +8,17 @@ export const products = [
     {
         id: 1,
         image: blazergreen,
-        price: "",
+        price: "$16.900",
     },
     {
         id: 2,
         image: blazerblack,
-        price: "",
+        price: "$16.900",
     },
     {
         id: 3,
         image: blazerpurple,
-        price: "",
+        price: "$16.900",
     },
     {
         id: 4,
@@ -28,6 +28,6 @@ export const products = [
     {
         id: 5,
         image: camperaroja,
-        price: "",
+        price: "$8.900",
     }
 ]

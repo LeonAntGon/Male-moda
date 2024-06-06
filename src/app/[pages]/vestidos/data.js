@@ -6,16 +6,16 @@ export const products = [
     {
         id: 1,
         image: negro,
-        price: "",
+        price: "$5200",
     },
     {
         id: 2,
         image: marroncito,
-        price: "",
+        price: "$7500",
     },
     {
         id: 3,
         image: vestidoverde,
-        price: "",
+        price: "$6200",
     },
 ]

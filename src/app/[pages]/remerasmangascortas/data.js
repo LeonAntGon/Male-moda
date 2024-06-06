@@ -10,36 +10,36 @@ export const products = [
     {
         id: 1,
         image: blazergreen,
-        price: ''
+        price: '$5200'
     },
     {
         id: 2,
         image: rosademon,
-        price: ''
+        price: '$4500'
     },
     {
         id: 3,
         image: marroncora,
-        price: ''
+        price: '$5300'
     },
     {
         id: 4,
         image: marronflor,
-        price: ''
+        price: '$5300'
     },
     {
         id: 5,
         image: morado,
-        price: ''
+        price: '$6200'
     },
     {
         id: 6,
         image: negramancha,
-        price: ''
+        price: '$4300'
     },
     {
         id: 7,
         image: remeraroja,
-        price: ''
+        price: '$5300'
     }
 ];
