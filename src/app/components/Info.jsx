@@ -64,6 +64,7 @@ export default function Info(){
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 className="w-[90%] h-[95%]"
+                lang="es"
                 ></iframe>
                 </div>
                 <div className="text-center mt-6">
