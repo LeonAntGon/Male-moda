@@ -1,5 +1,11 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-    // Configuración de Next.js aquí
+    reactStrictMode: true,
+    images: {
+      unoptimized: true, // Use this if needed
+    },
+    // Other configurations...
   };
   
-  module.exports = nextConfig;
+  export default nextConfig;
+  
