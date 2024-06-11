@@ -46,7 +46,7 @@ export default function Info(){
                     
                     <a className={`bg-[#FECDFF] h-full w-full py-[5px] px-6 text-black mt-[60px] rounded-md
                      shadow-black shadow-md ${saira.className}`}
-                    href="/"
+                    href="https://chat.whatsapp.com/IuCfBAt13w58Did936rWpp"
                     target="_blank" 
                     rel="noopener noreferrer"                    
                     >IR AL GRUPO</a>
