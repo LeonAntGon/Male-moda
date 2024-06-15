@@ -5,7 +5,7 @@ import Link from 'next/link'
 import tshirt from '@/public/sections/mangacorta.jpg';
 import shirt from '@/public/sections/remeramangalarga.jpg';
 import top from '@/public/sections/top.jpg';
-//import pants from '@/public/sections/jean.jpg';
+import pants from '@/public/sections/jean.jpg';
 import campera from '@/public/sections/camperas.jpg';
 import sweater from '@/public/sections/sweater.jpg';
 import dress  from '@/public/sections/vestidos.jpg';
@@ -77,7 +77,7 @@ export default function Hero(){
                         </div>
                     </Link>
                     
-                    {/*<Link href="/pages/pantalonesyjeans">
+                    <Link href="/pages/pantalonesyjeans">
                     <div className="cont2"
                     style={{ backgroundImage: `url(${pants.src})`}}>
                         <section className='imgcontainer h-[110px] rounded-lg'>
@@ -85,7 +85,7 @@ export default function Hero(){
                         </section>
                         
                     </div>
-                    </Link>*/}
+                    </Link>
 
                     <Link href="/pages/camperas">
                     <div className="cont3 "
