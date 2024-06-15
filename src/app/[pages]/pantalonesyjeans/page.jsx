@@ -1,6 +1,6 @@
-import Nav from '@/src/app/components/Nav';
-import Pagestitles from '@/src/app/components/Pagestitles';
-import Footer from '@/src/app/components/Footer';
+import Nav from '../../components/Nav';
+import Pagestitles from '../../components/Pagestitles';
+import Footer from '../../components/Footer';
 import { Image } from "@nextui-org/react";
 import { products } from "./data";
 
@@ -26,7 +26,7 @@ export default function Pantalonesyjeans(){
                     </div>
                 ))}
             </section>
-            
+
         <Footer />
         </>
 

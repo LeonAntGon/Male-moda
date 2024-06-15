@@ -10,11 +10,12 @@ export default function Tops(){
         <>
         <Nav/>
         <Pagestitles text="TOPS"/>
-
-        <section className="flex flex-wrap justify-center gap-2 gap-y-[50px] mx-[10px] h-auto mt-6">
         <div className='bg-black h-[30px] my-[25px] flex justify-center items-center '>
                     <h2 className='text-gray-100 text-center text-[16px] font-bold '>NUEVOS INGRESOS</h2>
-                </div>
+        </div>
+
+        <section className="flex flex-wrap justify-center gap-2 gap-y-[50px] mx-[10px] h-auto mt-6">
+        
                 {productstwo.map((product) => (
                     <div className='inline-block min-w-[100px] min-h-[120px] max-w-[160px] ' key={product.id}>
                          <img
