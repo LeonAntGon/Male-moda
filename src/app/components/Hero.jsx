@@ -61,7 +61,7 @@ export default function Hero(){
                         <div className="cont1"
                         style={{ backgroundImage: `url(${shirt.src})`}}>
                             <section className='imgcontainer h-[110px] rounded-lg'>
-                            <h6 className={` text-center text-[30px] p-2  ${saira.className}`}>REMERAS <br></br> MANGAS LARGAS</h6>
+                            <h6 className={` text-center text-[30px] p-2  ${saira.className}`}>MANGAS LARGAS<br></br>& CAMISAS</h6>
                             </section>
                         
                         </div>
