@@ -25,6 +25,7 @@ export default function Pollerasyshorts(){
                     </div>
                 ))}
             </section>
+            
         <Footer/>
         </>
     )
