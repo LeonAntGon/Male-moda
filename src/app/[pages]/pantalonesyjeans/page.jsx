@@ -7,6 +7,7 @@ export default function Pantalonesyjeans(){
         <>
         <Nav/>
         <Pagestitles text="Pantalones y jeans"/>
+
         <Footer/>
         </>
     )
