@@ -1,4 +1,6 @@
 import { Roboto_Condensed } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 const robo = Roboto_Condensed({ subsets: ["latin"] });
