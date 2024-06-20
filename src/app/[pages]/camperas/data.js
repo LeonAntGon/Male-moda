@@ -3,6 +3,7 @@ import blazerblack from '@/public/camperas/blazernegra.jpg';
 import blazerpurple from '@/public/camperas/blazerpurple.jpg';
 import camperacamuflaje from '@/public/camperas/camperacamuflaje.jpg';
 import camperaroja from '@/public/camperas/camperaroja.jpg';
+import camperacorderito from '@/public/camperas/camperacorderito22000.jpg';
 
 export const products = [
     {
@@ -29,5 +30,11 @@ export const products = [
         id: 5,
         image: camperaroja,
         price: "$8.900",
+    },
+    {
+        id:6,
+        image: camperacorderito,
+        title: "Campera corderito",
+        precio: "22000"
     }
 ]
