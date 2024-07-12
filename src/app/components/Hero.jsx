@@ -100,7 +100,7 @@ export default function Hero(){
                     <Link href="/pages/sweaters">
                     <div className="cont4 focus:"
                     style={{ backgroundImage: `url(${sweater.src})`}}>
-                        <section className='imgcontainer h-[60px] rounded-lg'>
+                        <section className='imgcontainer h-[110px] rounded-lg'>
                             <h6 className={` text-center text-[30px] p-2  ${saira.className}`}>SWEATERS <br></br>& BUZOS</h6>
                         </section>
                     </div>
